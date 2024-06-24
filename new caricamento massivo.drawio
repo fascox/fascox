@@ -1,9 +1,101 @@
-<mxfile host="app.diagrams.net" modified="2024-06-24T09:15:12.899Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15" version="24.6.2" etag="YTwHpROgqfidPFxFCzd-" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-24T09:16:32.486Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15" etag="w-0sg_MJ3BMFpr5kYWmR" version="24.6.2" type="github">
   <diagram name="Pagina-1" id="vrp-BLg1DrBL_UtZDKUx">
-    <mxGraphModel>
+    <mxGraphModel dx="1569" dy="1179" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="dR0qdkHtI79iL_kFT5iZ-1" value="UI" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="150" height="799" as="geometry" />
+        </mxCell>
+        <mxCell id="dR0qdkHtI79iL_kFT5iZ-2" value="API" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="253" y="20" width="150" height="799" as="geometry" />
+        </mxCell>
+        <mxCell id="dR0qdkHtI79iL_kFT5iZ-3" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" vertex="1" parent="dR0qdkHtI79iL_kFT5iZ-2">
+          <mxGeometry x="70" y="103" width="10" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="dR0qdkHtI79iL_kFT5iZ-4" value="ImportMassivoCSVService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="453" y="20" width="204" height="799" as="geometry" />
+        </mxCell>
+        <mxCell id="dR0qdkHtI79iL_kFT5iZ-5" value="RegistroAttivitaService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="707" y="20" width="177" height="799" as="geometry" />
+        </mxCell>
+        <mxCell id="dR0qdkHtI79iL_kFT5iZ-6" value="S3" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="934" y="20" width="150" height="799" as="geometry" />
+        </mxCell>
+        <mxCell id="dR0qdkHtI79iL_kFT5iZ-7" value="/importCsv" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="dR0qdkHtI79iL_kFT5iZ-1" target="dR0qdkHtI79iL_kFT5iZ-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="218" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dR0qdkHtI79iL_kFT5iZ-8" value="return jobId" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;" edge="1" parent="1" source="dR0qdkHtI79iL_kFT5iZ-3" target="dR0qdkHtI79iL_kFT5iZ-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="221" y="171" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dR0qdkHtI79iL_kFT5iZ-9" value="process()" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="dR0qdkHtI79iL_kFT5iZ-2" target="dR0qdkHtI79iL_kFT5iZ-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="268" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dR0qdkHtI79iL_kFT5iZ-10" value="saveRegistroAttivita()" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="dR0qdkHtI79iL_kFT5iZ-4" target="dR0qdkHtI79iL_kFT5iZ-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="684" y="316" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dR0qdkHtI79iL_kFT5iZ-11" value="generateUploadPresignedUrl()" style="curved=1;rounded=0;" edge="1" parent="1" source="dR0qdkHtI79iL_kFT5iZ-5" target="dR0qdkHtI79iL_kFT5iZ-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="847" y="364" />
+              <mxPoint x="847" y="394" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dR0qdkHtI79iL_kFT5iZ-12" value="PUT /presignedURL" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="dR0qdkHtI79iL_kFT5iZ-5" target="dR0qdkHtI79iL_kFT5iZ-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="911" y="442" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dR0qdkHtI79iL_kFT5iZ-13" value="upload complete" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;" edge="1" parent="1" source="dR0qdkHtI79iL_kFT5iZ-6" target="dR0qdkHtI79iL_kFT5iZ-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="914" y="539" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dR0qdkHtI79iL_kFT5iZ-14" value="updateRegistroAttivita()" style="curved=1;rounded=0;" edge="1" parent="1" source="dR0qdkHtI79iL_kFT5iZ-5" target="dR0qdkHtI79iL_kFT5iZ-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="847" y="587" />
+              <mxPoint x="847" y="617" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dR0qdkHtI79iL_kFT5iZ-15" value="notifyCompletion(jobId)" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;" edge="1" parent="1" source="dR0qdkHtI79iL_kFT5iZ-2" target="dR0qdkHtI79iL_kFT5iZ-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="223" y="714" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dR0qdkHtI79iL_kFT5iZ-16" value="Operazioni asincrone" style="fillColor=#ffff88;strokeColor=#9E916F;" vertex="1" parent="1">
+          <mxGeometry x="303" y="191" width="731" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="dR0qdkHtI79iL_kFT5iZ-17" value="Upload file di scarto" style="fillColor=#ffff88;strokeColor=#9E916F;" vertex="1" parent="1">
+          <mxGeometry x="1034" y="462" width="156" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="dR0qdkHtI79iL_kFT5iZ-18" value="Notifica completamento (opzionale)" style="fillColor=#ffff88;strokeColor=#9E916F;" vertex="1" parent="1">
+          <mxGeometry x="195" y="637" width="266" height="49" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
