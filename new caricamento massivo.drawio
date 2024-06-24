@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-24T09:16:32.486Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15" etag="w-0sg_MJ3BMFpr5kYWmR" version="24.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-24T09:20:21.207Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15" etag="w9ItZL4K-_9zoXluLHgr" version="24.6.2" type="github">
   <diagram name="Pagina-1" id="vrp-BLg1DrBL_UtZDKUx">
     <mxGraphModel dx="1569" dy="1179" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -29,11 +29,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="dR0qdkHtI79iL_kFT5iZ-8" value="return jobId" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;" edge="1" parent="1" source="dR0qdkHtI79iL_kFT5iZ-3" target="dR0qdkHtI79iL_kFT5iZ-1">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="dR0qdkHtI79iL_kFT5iZ-8" value="return job-uuId" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;dashed=1;dashPattern=2 3;" edge="1" parent="1">
+          <mxGeometry x="-0.0022" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="221" y="171" />
+              <mxPoint x="222" y="171" />
             </Array>
+            <mxPoint x="324" y="171" as="sourcePoint" />
+            <mxPoint x="95.5" y="171" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="dR0qdkHtI79iL_kFT5iZ-9" value="process()" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="dR0qdkHtI79iL_kFT5iZ-2" target="dR0qdkHtI79iL_kFT5iZ-4">
@@ -80,11 +83,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="dR0qdkHtI79iL_kFT5iZ-15" value="notifyCompletion(jobId)" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;" edge="1" parent="1" source="dR0qdkHtI79iL_kFT5iZ-2" target="dR0qdkHtI79iL_kFT5iZ-1">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="dR0qdkHtI79iL_kFT5iZ-15" value="pollCompletion(job-uuId)" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;" edge="1" parent="1" source="dR0qdkHtI79iL_kFT5iZ-1" target="dR0qdkHtI79iL_kFT5iZ-2">
+          <mxGeometry x="0.0043" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="223" y="714" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="dR0qdkHtI79iL_kFT5iZ-16" value="Operazioni asincrone" style="fillColor=#ffff88;strokeColor=#9E916F;" vertex="1" parent="1">
@@ -93,7 +97,7 @@
         <mxCell id="dR0qdkHtI79iL_kFT5iZ-17" value="Upload file di scarto" style="fillColor=#ffff88;strokeColor=#9E916F;" vertex="1" parent="1">
           <mxGeometry x="1034" y="462" width="156" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="dR0qdkHtI79iL_kFT5iZ-18" value="Notifica completamento (opzionale)" style="fillColor=#ffff88;strokeColor=#9E916F;" vertex="1" parent="1">
+        <mxCell id="dR0qdkHtI79iL_kFT5iZ-18" value="Polling" style="fillColor=#ffff88;strokeColor=#9E916F;" vertex="1" parent="1">
           <mxGeometry x="195" y="637" width="266" height="49" as="geometry" />
         </mxCell>
       </root>
